@@ -1,6 +1,4 @@
-// JavaScript code can be added here for interactivity
 document.addEventListener('DOMContentLoaded', function() {
-    // Example: Add smooth scrolling to navigation links
     const navLinks = document.querySelectorAll('nav ul li a');
     navLinks.forEach(link => {
         link.addEventListener('click', function(event) {
