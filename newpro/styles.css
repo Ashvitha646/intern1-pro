@@ -1,17 +1,14 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5DC; /* Soft Beige Background */
+    background-color: #F5F5DC; 
     color: #333;
-    background-image: url('subtle-pattern.png'); /* Subtle Pattern Overlay */
+    background-image: url('subtle-pattern.png'); 
     background-repeat: repeat;
 }
-
-/* Header Styles */
 header {
-    background-color: rgba(255, 182, 193, 0.8); /* Soft Coral with transparency */
+    background-color: rgba(255, 182, 193, 0.8); 
     color: white;
     padding: 15px 0;
     position: fixed;
@@ -38,13 +35,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF6347; /* Bright Orange */
+    color: #FF6347; 
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
-    background: url('new-background1.jpg') no-repeat center center/cover; /* Updated Background Image */
+    background: url('new-background1.jpg') no-repeat center center/cover; 
     height: 450px;
     position: relative;
     color: white;
@@ -66,16 +62,14 @@ nav ul li a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* Menu Section */
 .menu {
-    background-color: #FFC0CB; /* Light Pink Background */
+    background-color: #FFC0CB; 
     padding: 50px 20px;
     text-align: center;
 }
 
-/* Menu Item Styles */
 .menu-item {
-    background-color: #FFC0CB; /* Light Pink Background */
+    background-color: #FFC0CB; 
     margin-bottom: 0;
     border-radius: 0;
     padding: 20px;
@@ -83,22 +77,21 @@ nav ul li a:hover {
 }
 
 .menu-item img {
-    width: 400px; /* Adjust the size here for bigger images */
+    width: 400px; 
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
 }
 
-/* About Section */
 .about {
-    background-color: #F5F5F5; /* Light Gray with a subtle tone */
+    background-color: 
     padding: 50px 20px;
     text-align: center;
 }
 
 .about h2 {
-    color: #4B0082; /* Deep Purple */
+    color: #4B0082; 
     font-size: 36px;
     margin-bottom: 30px;
 }
@@ -108,15 +101,14 @@ nav ul li a:hover {
     color: #555;
 }
 
-/* Contact Section */
 .contact {
-    background-color: #FAFAFA; /* Pale Gray */
+    background-color: #FAFAFA; 
     padding: 50px 20px;
     text-align: center;
 }
 
 .contact h2 {
-    color: #4B0082; /* Deep Purple */
+    color: #4B0082;
     font-size: 36px;
     margin-bottom: 40px;
 }
@@ -132,7 +124,7 @@ form input, form textarea {
 
 form button {
     padding: 12px 30px;
-    background-color: #FF6347; /* Bright Orange */
+    background-color: #FF6347; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -141,12 +133,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #4B0082; /* Deep Purple */
+    background-color: #4B0082;
 }
 
 /* Footer Styles */
 footer {
-    background-color: rgba(75, 0, 130, 0.6); /* Deep Purple with transparency */
+    background-color: rgba(75, 0, 130, 0.6); 
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -158,20 +150,19 @@ footer p {
     font-size: 16px;
 }
 
-/* New Color Accent Elements */
 h2 {
-    border-bottom: 3px solid #FF6347; /* Bright Orange Underline for Headings */
+    border-bottom: 3px solid #FF6347; 
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 .menu-item h3 {
-    color: #FF6347; /* Bright Orange for Menu Item Titles */
+    color: #FF6347; 
 }
 
 .hero h1, .hero p {
-    color: #FF6347; /* Bright Orange for Hero Text */
+    color: #FF6347; 
 }
 
 
